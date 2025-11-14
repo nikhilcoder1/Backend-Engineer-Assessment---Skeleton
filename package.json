@@ -1,0 +1,27 @@
+{
+  "name": "r17-nodejs-assessment",
+  "version": "1.0.0",
+  "description": "Node.js assessment - payment instructions API",
+  "keywords": [
+    "backend",
+    "nodejs",
+    "express"
+  ],
+  "license": "ISC",
+  "author": "Nikhil Pandey",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "lint": "echo \"Add lint script\"",
+    "test": "echo \"Add tests\""
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
